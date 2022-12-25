@@ -13,6 +13,7 @@ function ControlPanel() {
             {/* component cp_header showing the header */}
             <CP_HEADER />
 
+            {/* use the components to display different parts in the panel */}
             <div class="container text-center text-white mt-2 p-0">
                 <div class="row">
 

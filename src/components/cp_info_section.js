@@ -1,7 +1,10 @@
 function CP_info_section() {
 
     return (
+        // info section display some satstics and progresses
         <div class="col bg-panel m-1 rounded-1">
+
+            {/* here showing the date and timing */}
             <div id='date' className='row m-3 mb-5 text-center'>
                 <div className='col mt-1'>
                     <h1 className='text-start' style={{ fontSize: '70px', }}>11</h1>
@@ -15,6 +18,8 @@ function CP_info_section() {
                     </div>
                 </div>
             </div>
+
+            {/* the progress and reminder of people group */}
             <div id='score'
                 className='row'>
                 <table className=''>
@@ -113,6 +118,8 @@ function CP_info_section() {
                     </tbody>
                 </table>
             </div>
+
+            {/* the total number of people in Al Hajj */}
             <div id='peopleNumber' className='row mb-5'>
                 <div className='col mt-1 '>
                     <i className="bi bi-person m-2" style={{
@@ -129,6 +136,7 @@ function CP_info_section() {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 

@@ -2,6 +2,7 @@ import '../App.css';
 
 function CP_header() {
     return (
+        // this header showing web title and quick links
         <header className='m-0 row bg-panel text-white'>
             <div className='col'>
                 <ul class="nav ">

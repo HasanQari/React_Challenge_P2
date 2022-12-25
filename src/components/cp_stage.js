@@ -2,6 +2,7 @@ import DataPanel from "../pages/data_panel";
 
 function CP_stage() {
     return (
+        // every step or stage in the process (i used table approch to orgnize the view)
         <div class="col-8 bg-panel m-1  p-5 rounded-1 text-start" dir="ltr">
 
             <table>
@@ -85,12 +86,7 @@ function CP_stage() {
                         <td className="text-center fs-12">مشعر مزدلفة</td>
                         <td className="text-center fs-12"></td>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+
                 </tbody>
             </table>
 
@@ -104,11 +100,3 @@ function CP_stage() {
 }
 
 export default CP_stage;
-
-
-
-
-
-
-
-

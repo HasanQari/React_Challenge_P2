@@ -6,13 +6,15 @@ function DataPanel() {
     document.body.style = 'background: #141d24';
 
     return (
+        // in this pop-up modal display the data and reports (but it's not completed becouse no enough time)
         <div class="container modal-dialog modal-dialog-centered modal-fullscreen rounded-3" dir='rtl'>
             <div class="container modal-content bg-dark">
+                {/* colse button */}
                 <div class="modal-header">
-                    {/* <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> */}
                     <button type="button" class="btn-close bg-info" data-bs-dismiss="modal" aria-label="Close"></button>
-
                 </div>
+
+                {/* show date and current process */}
                 <div class="modal-body">
                     <div className='row'>
 
@@ -33,6 +35,7 @@ function DataPanel() {
                             </div>
                         </div>
 
+                        {/* stastic group */}
                         <div className='col-8'>
                             <div className='row'>
                                 <div className='col'>
@@ -67,12 +70,15 @@ function DataPanel() {
                                 </div>
                             </div>
                         </div>
+                        {/* the icon  */}
                         <div className='col-1'>
 
                         </div>
 
                     </div>
                     <hr />
+
+                    {/* here should display the tables and the reports !!!!! but no much time */}
 
                 </div>
                 {/* <div class="modal-footer">
