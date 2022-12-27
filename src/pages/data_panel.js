@@ -72,13 +72,125 @@ function DataPanel() {
                         </div>
                         {/* the icon  */}
                         <div className='col-1'>
-
+                        <i class="bi bi-funnel pointer"></i><br />
+                        <i class="bi bi-bar-chart-line pointer b-0"></i>
                         </div>
 
                     </div>
                     <hr />
 
-                    {/* here should display the tables and the reports !!!!! but no much time */}
+                    <div className='row text-center'>
+                        <div className='col'>
+                            <h6 className='fs-12'>
+                                <div className=' rounded-circle mx-2'
+                                    style={{
+                                        width: '10px',
+                                        height: '10px',
+                                        display: 'inline-block',
+                                        backgroundColor: '#d040ed'
+                                    }}></div>
+                                أفواج متبقية</h6>
+                            <table class="table table-dark table-hover fs-12">
+                                <thead className='text-secondary'>
+                                    <tr>
+                                        <th scope="col">الفوج</th>
+                                        <th scope="col">الخروج</th>
+                                        <th scope="col">الوصول</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P1-B92-32</td>
+                                        <td>02:34:00</td>
+                                        <td>05:23:00</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className='col border-end'>
+                            <h6 className='fs-12'>
+                                <div className=' rounded-circle mx-2'
+                                    style={{
+                                        width: '10px',
+                                        height: '10px',
+                                        display: 'inline-block',
+                                        backgroundColor: '#0dcaf0'
+                                    }}></div>
+                                أفواج خرجت</h6>
+                            <table class="table table-dark table-hover fs-12">
+                                <thead className='text-secondary'>
+                                    <tr>
+                                        <th scope="col">الفوج</th>
+                                        <th scope="col">المجدول</th>
+                                        <th scope="col">المتحقق</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h6 className='text-secondary'>لايوجد افواج ليتم عرضها</h6>
+                        </div>
+                        <div className='col border-end'>
+                            <h6 className='fs-12'>
+                                <div className=' rounded-circle mx-2'
+                                    style={{
+                                        width: '10px',
+                                        height: '10px',
+                                        display: 'inline-block',
+                                        backgroundColor: '#ecf00e'
+                                    }}></div>
+                                أفواج وصلت</h6>
+                            <table class="table table-dark table-hover fs-12">
+                                <thead className='text-secondary'>
+                                    <tr>
+                                        <th scope="col">الفوج</th>
+                                        <th scope="col">المجدول</th>
+                                        <th scope="col">المتحقق</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h6 className='text-secondary'>لايوجد افواج ليتم عرضها</h6>
+                        </div>
+                    </div>
 
                 </div>
                 {/* <div class="modal-footer">
